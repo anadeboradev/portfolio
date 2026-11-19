@@ -1,67 +1,234 @@
+
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ana Débora Muniz - Developer</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ana Débora | Desenvolvedora</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <button class="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
+        &#9776;
+    </button>
 
-  <div class="container">
-    <div class="sidebar">
-      <div class="logo">A</div>
-      <nav>
-        <a href="#home">Home</a>
-        <a href="#sobre">About</a>
-        <a href="#habilidades">Skills</a>
-        <a href="#trabalho">Work</a>
-        <a href="#serviços">Services</a>
-        <a href="#contato">Contact</a>
-      </nav>
+    <div class="container">
+
+        <!-- MENU LATERAL -->
+        <aside class="sidebar">
+
+            <div class="logo">A</div>
+
+            <nav>
+                <a href="#home">Início</a>
+                <a href="#sobre">Sobre mim</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </nav>
+
+        </aside>
+
+        <!-- CONTEÚDO PRINCIPAL -->
+        <main class="main">
+
+            <!-- INÍCIO -->
+            <section class="text" id="home">
+
+                <h1>Olá, eu sou a Ana Débora!</h1>
+
+                <h2>Estudante de Ciência da Computação</h2>
+
+                <p>
+                    Sou técnica em Desenvolvimento de Sistemas e estudante
+                    de Ciência da Computação. Tenho interesse em programação,
+                    desenvolvimento de sistemas e segurança da informação.
+                    Estou sempre buscando aprender novas tecnologias e
+                    aprimorar meus conhecimentos.
+                </p>
+
+                <a class="btn" href="#sobre">
+                    Conheça meu trabalho
+                </a>
+
+                <div class="contact-info">
+
+                    <div class="contact-item">
+                        <strong>GitHub</strong>
+                        <a href="https://github.com/anadeboradev" target="_blank">
+                            anadeboradev
+                        </a>
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Formação</strong>
+                        Ciência da Computação
+                    </div>
+
+                    <div class="contact-item">
+                        <strong>Área de interesse</strong>
+                        Desenvolvimento de Sistemas
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- FOTO -->
+            <div class="profile-img">
+                <img src="icon.jpeg" alt="Foto de Ana Débora">
+            </div>
+
+            <!-- SOBRE MIM -->
+            <section id="sobre" class="section">
+
+                <h2>Sobre mim</h2>
+
+                <p>
+                    Meu nome é Ana Débora Muniz, sou de Fortaleza (CE)
+                    e sou técnica em Desenvolvimento de Sistemas.
+                    Atualmente, curso Ciência da Computação.
+
+                    Gosto de explorar novas tecnologias, desenvolver
+                    soluções utilizando programação e transformar ideias
+                    em projetos. Meu objetivo é continuar evoluindo
+                    profissionalmente na área da tecnologia.
+                </p>
+
+            </section>
+
+            <!-- HABILIDADES -->
+            <section id="habilidades" class="section">
+
+                <h2>Habilidades e tecnologias</h2>
+
+                <p>
+                    Algumas das tecnologias e ferramentas com as quais
+                    tenho estudado e desenvolvido projetos:
+                </p>
+
+                <div class="skills">
+
+                    <span>HTML5</span>
+                    <span>CSS3</span>
+                    <span>Python</span>
+                    <span>JavaScript</span>
+                    <span>SQL</span>
+                    <span>MySQL</span>
+                    <span>GitHub</span>
+
+                </div>
+
+            </section>
+
+            <!-- PROJETOS -->
+            <section id="projetos" class="section">
+
+                <h2>Meus projetos</h2>
+
+                <p>
+                    Aqui estão alguns projetos desenvolvidos durante
+                    meus estudos e minha jornada na programação.
+                </p>
+
+                <div class="project">
+
+                    <h3>Shoelé</h3>
+
+                    <p>
+                        Projeto de uma loja virtual de calçados,
+                        desenvolvido utilizando tecnologias web.
+                    </p>
+
+                </div>
+
+                <div class="project">
+
+                    <h3>ValidaFood</h3>
+
+                    <p>
+                        Aplicação desenvolvida para auxiliar no
+                        acompanhamento dos prazos de validade
+                        dos alimentos.
+                    </p>
+
+                </div>
+
+                <a href="https://github.com/anadeboradev?tab=repositories"
+                   target="_blank" class="btn">
+                    Ver repositórios
+                </a>
+
+            </section>
+
+            <!-- CONTATO -->
+            <section id="contato" class="section">
+
+                <h2>Entre em contato</h2>
+
+                <p>
+                    Gostaria de conhecer meus projetos ou conversar
+                    sobre tecnologia? Você pode me encontrar através
+                    dos links abaixo.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="https://github.com/anadeboradev"
+                       target="_blank">
+                        GitHub
+                    </a>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank">
+                        LinkedIn
+                    </a>
+
+                </div>
+
+            </section>
+
+        </main>
+
     </div>
 
-    <div class="main">
-      <div class="text">
-        <h1>Olá, eu sou a Ana Débora</h1>
-        <h2>Desenvolvedora</h2>
-        <p>Sou formada em análise e desenvolvimento de sistemas. Gosto de aprender novas tecnologias e escrever código limpo.</p>
-        <button class="btn">
-          <a class="link_botao" href=https://github.com/anadeboradev>Mais sobre mim</a>
-        </button>
-        <div class="contact-info">
-          <div class="contact-item">
-            <strong>Git</strong>
-            anadeboradev
-          </div>
-          <div class="contact-item">
-            <strong>Whatsapp</strong>
-            85 986468951
-          </div>
-          <div class="contact-item">
-            <strong>Email</strong>
-            anadeboramunizrodrigueschaves@gmail.com
-          </div>
-        </div>
-      </div>
-      <div class="profile-img">
-        <img src="icon.jpeg" alt="Minha imagem" />
-      </div>
-    </div>
-  </div>
+    <!-- SCRIPT DO MENU -->
+    <script>
 
-  <!-- Script para abrir/fechar o menu no mobile -->
-  <script>
-    const toggle = document.querySelector(".menu-toggle");
-    const sidebar = document.querySelector(".sidebar");
+        const toggle = document.querySelector(".menu-toggle");
+        const sidebar = document.querySelector(".sidebar");
+        const links = document.querySelectorAll(".sidebar nav a");
 
-    toggle.addEventListener("click", () => {
-      sidebar.classList.toggle("active");
-    });
-  </script>
+        toggle.addEventListener("click", () => {
+
+            sidebar.classList.toggle("active");
+
+            const aberto = sidebar.classList.contains("active");
+
+            toggle.setAttribute("aria-expanded", aberto);
+
+        });
+
+        links.forEach(link => {
+
+            link.addEventListener("click", () => {
+
+                sidebar.classList.remove("active");
+
+                toggle.setAttribute("aria-expanded", "false");
+
+            });
+
+        });
+
+    </script>
 
 </body>
 </html>
